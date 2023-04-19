@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  font-family: 'Poppins';
+  background-color: rgba(97, 176, 220, 0.13) 100%;
 }
 
 .App-logo {
@@ -32,7 +34,154 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.background {
+
+}
+
+.loginBox {
+  width: 887px;
+  height: 519px;
+  margin: 0 auto;
+  display: block;
+  box-sizing: border-box;
+  border: 0.5px solid #61B0DC;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  margin-top: 208px;
+}
+
+.loginInput {
+  width: 732px;
+  height: 57px;
+  border: 1px solid rgba(0, 0, 0, 0.91);
+  border-radius: 8px;
+  margin-bottom: 56px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.27);
+}
+
+.loginTitle {
+  font-style: normal;
+  margin-top: 35px;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 54px;
+}
+
+.loginButton {
+  width: 202px;
+  height: 74px;
+  background: #7FB4D3;
+  opacity: 0.8;
+  border: 0.5px solid #61B0DC;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+  margin-bottom: 10px;
+}
+
+.loginText {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 38px;
+  margin-bottom: 51px;
+  color: rgba(0, 0, 0, 0.77);
+}
+
+.registerBackground {
+  margin-top: 178px;
+}
+
+.registerBox {
+  margin-top: 178px;
+  width: 1026px;
+  height: 633px;
+  margin: 0 auto;
+  display: block;
+  box-sizing: border-box;
+  border: 0.5px solid #61B0DC;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: rgba(255, 255, 255, 0.8);
+
+}
+
+.registerTitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 38px;
+  color: rgba(0, 0, 0, 0.89);
+  text-align: start;
+  margin-left: 42px;
+  width: 216px;
+  height: 32.59px;
+  margin-bottom: 10px;
+
+}
+
+.registerInput {
+  width: 403px;
+  height: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.91);
+  border-radius: 8px;
+}
+
+.registerBlock {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 42px;
+  margin-right: 92px;
+}
+
+.registerText {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 38px;
+  margin-bottom: 1px;
+  padding-bottom: 1px;
+  text-align: start;
+  color: #000000;
+
+}
+
+.registerRow {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+
+.registerButton {
+  width: 812px;
+  height: 49.75px;
+  background: linear-gradient(269.56deg, rgba(97, 176, 220, 0.84) 41.1%, rgba(97, 176, 220, 0.1092) 101.63%);
+  border: 0.5px solid #61B0DC;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  margin-top: 48px;
+  
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 42px;
+
+  color: #000000;
+  margin-bottom: 95px;
+
 }
