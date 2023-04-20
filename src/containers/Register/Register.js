@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { registerUser } from "../../store/actions/usersActions";
 import { useNavigate } from "react-router-dom";
 import { Grid, Typography } from "@mui/material";
