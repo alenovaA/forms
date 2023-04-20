@@ -2,7 +2,6 @@ import {AppBar, Box, Toolbar, IconButton, Typography, Button} from "@mui/materia
 import {NavLink} from "react-router-dom";
 import AnonymousMenu from "../Menus/AnonymousMenu/AnonymousMenu";
 
-
 const AppToolbar = () => {
 
     return <Box sx={{ flexGrow: 1, mb: "40px" }}>
